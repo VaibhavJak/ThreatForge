@@ -26,8 +26,8 @@ This project automates the creation of a secure, isolated malware analysis envir
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/adanalvarez/AWS-malware-lab
-   cd aws-malware-lab
+   git clone https://github.com/VaibhavJak/ThreatForge
+   cd ThreatForge
 
 2.Create a shared.auto.tfvars.json file with your AWS account details and AMI ID, for instance:
 ```
