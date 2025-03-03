@@ -30,7 +30,7 @@ This project automates the creation of a secure, isolated malware analysis envir
    cd aws-malware-lab
 
 2.Create a shared.auto.tfvars.json file with your AWS account details and AMI ID, for instance:
-
+```
 {
     "environment": "malware-lab",
     "ami": "ami-xxxxxxxxxxxxxxxxx",
@@ -39,12 +39,17 @@ This project automates the creation of a secure, isolated malware analysis envir
     "enable_guacamole": false,
     "enable_inetsim": false
 }
+```
 
 3.Initialize Terraform and deploy the lab:
+```
   terraform init
   terraform apply
+```
 
 4.Access the FlareVM instance via RDP or Apache Guacamole, depending on the configuration.
 
 5.Destroy the lab after use to minimize costs:
+```
   terraform destroy
+```
